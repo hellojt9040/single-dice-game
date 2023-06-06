@@ -1,0 +1,37 @@
+.Dice{
+  &__eachDisabled{
+    background-color: #80808045;
+  }
+  &__eachSuccess{
+    background-color: #00ff079c;
+  }
+
+  &__contaner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__betCount{
+    margin-bottom: 15px;
+  }
+
+  &__each {
+    // width: 310px;
+    // height: 350px;
+    // background-color: #c3d9d9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    // margin: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+    cursor: pointer;
+  }
+  &__each:not(.Dice__eachDisabled):hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  }
+}

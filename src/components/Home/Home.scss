@@ -1,0 +1,24 @@
+.Home{
+  min-height: 500px;
+
+  &__banner{
+    height: 550px;
+
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__action{
+    margin: 10px 0px;
+
+    img{  
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+    }
+  }
+}
+

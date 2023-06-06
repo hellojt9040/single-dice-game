@@ -1,0 +1,12 @@
+.GameBoard{
+  margin: 20px 0px;
+  padding: 10px;
+
+  &__spinner{
+    visibility: hidden;
+
+    &--show{
+      visibility: visible;
+    }
+  }
+}
